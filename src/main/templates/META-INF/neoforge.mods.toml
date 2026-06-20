@@ -7,7 +7,8 @@ modId = "${mod_id}"
 version = "${mod_version}"
 displayName = "${mod_name}"
 authors = "${mod_author}"
-description = '''Extends Create's List Filter with per-component exclusions when respecting item data.'''
+description = '''Simple create addon that adds more filters settings'''
+logoFile = "logo.png"
 
 [[mixins]]
 config = "${mod_id}.mixins.json"

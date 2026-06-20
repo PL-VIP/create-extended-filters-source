@@ -5,9 +5,10 @@ license = "MIT"
 [[mods]]
 modId = "createextendedfilters"
 version = "1.0.0"
-displayName = "Create Extended Filters"
+displayName = "Create: Extended Filters"
 authors = "sure"
-description = '''Extends Create's List Filter with per-component exclusions when respecting item data.'''
+description = '''Simple create addon that adds more filters settings'''
+logoFile = "logo.png"
 
 [[mixins]]
 config = "createextendedfilters.mixins.json"

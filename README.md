@@ -1,8 +1,8 @@
-# Create Extended Filters
+# Create: Extended Filters
+
+Simple Create addon that adds more filters settings.
 
 NeoForge addon for [Create](https://www.curseforge.com/minecraft/mc-mods/create) that extends the **List Filter** with per-component exclusions when **Respect Data** is enabled.
-
-Match items by type and data, but ignore specific data components (or nested fields inside them) — for example, treat adult and baby axolotl buckets as the same item while still respecting everything else.
 
 ## Features
 
@@ -62,6 +62,8 @@ Run the development client:
 ```bash
 ./gradlew runClient
 ```
+
+> **Note:** If the project path contains a colon (`:`), use the included `./gradlew-safe` wrapper script instead of `./gradlew`.
 
 ## How it works
 
