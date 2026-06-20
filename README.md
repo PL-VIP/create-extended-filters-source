@@ -1,4 +1,5 @@
 # Create: Extended Filters
+<img width="94" height="94" alt="Logo" src="https://github.com/user-attachments/assets/ec233023-dc88-48e3-8f37-60c9d08c3e54" />
 
 Simple Create addon that adds more filters settings.
 
