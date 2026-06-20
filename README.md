@@ -63,8 +63,6 @@ Run the development client:
 ./gradlew runClient
 ```
 
-> **Note:** If the project path contains a colon (`:`), use the included `./gradlew-safe` wrapper script instead of `./gradlew`.
-
 ## How it works
 
 Excluded paths are stored on the filter item as a data component (`createextendedfilters:filter_excluded_components`):
