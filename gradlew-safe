@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Wrapper for Gradle when project path contains ':' (breaks java -jar on Linux)
+set -euo pipefail
+DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+export JAVA_HOME="${JAVA_HOME:-$HOME/java/jdk-21.0.11+10}"
+export PATH="$JAVA_HOME/bin:$PATH"
+cd "$DIR"
+exec java -jar gradle/wrapper/gradle-wrapper.jar "$@"

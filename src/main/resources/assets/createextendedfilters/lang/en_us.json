@@ -1,0 +1,11 @@
+{
+  "createextendedfilters.gui.filter.components": "Data Components",
+  "createextendedfilters.gui.filter.exclude_components": "Exclude components",
+  "createextendedfilters.gui.filter.toggle_exclusion": "Click to ignore this field when matching",
+  "createextendedfilters.gui.filter.no_components": "Add filtered items to list their components",
+  "createextendedfilters.gui.filter.respect_data_hint": "Enable 'Respect Data' to configure component exclusions",
+  "createextendedfilters.gui.filter.excluded_count": "%s ignored field(s)",
+  "createextendedfilters.gui.filter.center_click_hint": "Click to toggle ignoring",
+  "createextendedfilters.gui.filter.back": "← Back",
+  "createextendedfilters.gui.filter.entire_component": "entire"
+}

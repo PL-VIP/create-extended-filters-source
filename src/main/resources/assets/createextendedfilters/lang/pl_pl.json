@@ -1,0 +1,11 @@
+{
+  "createextendedfilters.gui.filter.components": "Komponenty danych",
+  "createextendedfilters.gui.filter.exclude_components": "Wyklucz komponenty",
+  "createextendedfilters.gui.filter.toggle_exclusion": "Kliknij, aby ignorować to pole przy dopasowaniu",
+  "createextendedfilters.gui.filter.no_components": "Dodaj przedmioty do filtra, aby zobaczyć ich komponenty",
+  "createextendedfilters.gui.filter.respect_data_hint": "Włącz 'Bierz dane pod uwagę', aby konfigurować wykluczenia",
+  "createextendedfilters.gui.filter.excluded_count": "Ignorowane pola: %s",
+  "createextendedfilters.gui.filter.center_click_hint": "Kliknij, aby przełączyć ignorowanie",
+  "createextendedfilters.gui.filter.back": "← Wróć",
+  "createextendedfilters.gui.filter.entire_component": "całość"
+}

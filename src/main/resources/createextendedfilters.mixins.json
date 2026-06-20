@@ -1,0 +1,24 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.sure.createextendedfilters.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "FilterMenuMixin",
+    "ListFilterItemStackMixin",
+    "GhostItemMenuMixin"
+  ],
+  "client": [
+    "AbstractFilterScreenMixin",
+    "accessor.FilterMenuAccessor",
+    "accessor.ScreenPosAccessor",
+    "accessor.ScreenWidgetInvoker",
+    "accessor.ContainerScreenAccessor",
+    "accessor.ScreenSizeAccessor",
+    "accessor.SlotYAccessor",
+    "accessor.ScreenFontAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

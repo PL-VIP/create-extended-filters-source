@@ -1,0 +1,34 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "MIT"
+
+[[mods]]
+modId = "createextendedfilters"
+version = "1.0.0"
+displayName = "Create Extended Filters"
+authors = "sure"
+description = '''Extends Create's List Filter with per-component exclusions when respecting item data.'''
+
+[[mixins]]
+config = "createextendedfilters.mixins.json"
+
+[[dependencies.createextendedfilters]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.createextendedfilters]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.22)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.createextendedfilters]]
+modId = "create"
+type = "required"
+versionRange = "[6.0.10,6.2)"
+ordering = "AFTER"
+side = "BOTH"
